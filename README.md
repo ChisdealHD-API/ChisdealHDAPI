@@ -6,7 +6,7 @@
 
 - [https://api.chisdealhd.co.uk/dliveapi/?user=](https://api.chisdealhd.co.uk/dliveapi/?user=)
 
-## user=Username
+## user = Dlive Username
 
 ### Response Code if Accepted / Found
 
