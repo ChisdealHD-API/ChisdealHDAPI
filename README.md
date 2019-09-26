@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+## Welcome to ChisdealHD API Pages
 
-You can use the [editor on GitHub](https://github.com/ChisdealHD/ChisdealHDAPI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### API Paths
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Dlive API
 
-### Markdown
+- [https://api.chisdealhd.co.uk/dliveapi/?user=](https://api.chisdealhd.co.uk/dliveapi/?user=)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## user=Username
 
-```markdown
-Syntax highlighted code block
+### Response Code if Accepted / Found
 
-# Header 1
-## Header 2
-### Header 3
+`
+{
+"statusCode": 200,
+"status": "success",
+"username": "chisdealhd",
+"displayname": "ChisdealHD",
+"avatar": "https://images.prd.dlivecdn.com/avatar/c92cbe55-f59e-11e8-ab61-96b7bc5c96d7",
+"partnerStatus": "NONE",
+"online": false,
+"livestream": {
+"online": false,
+"bg": "https://images.prd.dlivecdn.com/offlineimage/video-placeholder.png"
+},
+"followers": "182"
+}`
 
-- Bulleted
-- List
+![Image](https://i.imgur.com/QtOX2uc.png)
 
-1. Numbered
-2. List
+### Error Response code / User not Found
 
-**Bold** and _Italic_ and `Code` text
+`
+{
+"error": "Not Found",
+"message": "Channel not found.",
+"statusCode": 404,
+"online": false
+}
+`
+![Image](https://i.imgur.com/QrMYTzC.png)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Twitch API
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChisdealHD/ChisdealHDAPI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Docs soon!
